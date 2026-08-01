@@ -14,6 +14,62 @@
 <meta name="author" content="MPOID">
 
 <style>
+    .action-buttons{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    background:#111;
+    flex-wrap:wrap;
+}
+
+.btn-login,
+.btn-alt{
+    flex:1;
+    min-width:220px;
+    max-width:320px;
+    text-align:center;
+    padding:16px 20px;
+    text-decoration:none;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.btn-login{
+    background:linear-gradient(90deg,#28a745,#1e7e34);
+}
+
+.btn-login:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 15px rgba(40,167,69,.7);
+}
+
+.btn-alt{
+    background:linear-gradient(90deg,#ff9800,#ff5722);
+}
+
+.btn-alt:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 15px rgba(255,152,0,.7);
+}
+    .top-marquee{
+    width:100%;
+    background:linear-gradient(90deg,#ffb300,#ff6600);
+    color:#fff;
+    font-size:15px;
+    font-weight:bold;
+    padding:10px 0;
+    border-bottom:2px solid #ffd54f;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+}
+
+.top-marquee marquee{
+    white-space:nowrap;
+}
 *{
     margin:0;
     padding:0;
@@ -117,8 +173,21 @@ padding:20px;
 
 <div class="hero">
 <img src="banner.jpg" alt="MPOID Resmi">
-</div>
+    <div class="action-buttons">
+    <a href="https://domainanda.com/login" class="btn-login">
+        LOGIN
+    </a>
 
+    <a href="https://domainanda.com/alternatif" class="btn-alt">
+        LINK ALTERNATIF
+    </a>
+</div>
+</div>
+<div class="top-marquee">
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+        🎉 Selamat Datang di MPOID Resmi | Login Aman & Cepat | Layanan 24 Jam | Akses MPOID Terbaru | Terima Kasih Telah Berkunjung 🎉
+    </marquee>
+</div>
 <div class="content">
 
 <h1>MPOID Resmi | Login dan Akses Platform Digital Terpercaya</h1>
@@ -145,12 +214,6 @@ MPOID menghadirkan sistem yang mudah digunakan oleh berbagai perangkat, baik des
 <li>Update informasi terbaru.</li>
 <li>Navigasi mudah digunakan.</li>
 </ul>
-
-<h2>Keyword</h2>
-
-<p>
-MPOID, MPOID resmi, MPOID login, MPOID alternatif, MPOID terbaru, MPOID Indonesia, MPOID terpercaya.
-</p>
 
 </div>
 
